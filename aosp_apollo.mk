@@ -22,6 +22,9 @@ PRODUCT_MODEL := Xiaomi Mi 10T
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+#Pixel offline charge animation
+TARGET_INCLUDE_PIXEL_CHARGER := true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="apollo-user 11 RKQ1.200826.002 V12.5.1.0.RJDMIXM release-keys"
 
