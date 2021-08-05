@@ -20,12 +20,10 @@ PRODUCT_COPY_FILES += \
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
-# GCam
-#PRODUCT_PACKAGES += \
- #   GoogleCamera
-
-#PRODUCT_COPY_FILES += \
- #   $(LOCAL_PATH)/GoogleCamera/privapp-permissions-googlecamera.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-googlecamera.xml
+ 
+# Camera
+PRODUCT_PACKAGES += \
+    CutoutRingServiceApollo
 
 # Properties
 TARGET_VENDOR_PROP := $(LOCAL_PATH)/vendor.prop
