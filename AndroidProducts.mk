@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_apollo.mk
+    $(LOCAL_DIR)/pixys_apollo.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_apollo-user \
-    aosp_apollo-userdebug \
-    aosp_apollo-eng
+    pixys_apollo-user \
+    pixys_apollo-userdebug \
+    pixys_apollo-eng
