@@ -28,6 +28,9 @@ USE_PIXEL_CHARGER_IMAGES := true
 #Inculde Gapps
 WITH_GAPPS := true
 
+#Included GcamGO
+TARGET_SHIP_GCAM_GO := true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="apollo-user 11 RKQ1.200826.002 V12.5.1.0.RJDMIXM release-keys"
 
