@@ -13,7 +13,8 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit from apollon device
 $(call inherit-product, device/xiaomi/apollo/device.mk)
-
+# Inherit from apollo MIUI Camera
+#$(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
 PRODUCT_NAME := aosp_apollo
 PRODUCT_DEVICE := apollo
 PRODUCT_MANUFACTURER := Xiaomi
